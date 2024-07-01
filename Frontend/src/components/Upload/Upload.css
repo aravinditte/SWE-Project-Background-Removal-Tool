@@ -1,0 +1,30 @@
+
+.dotted-border {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dotted-border button {
+    padding: 15px 25px;
+    background-color: #410CD9;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .dotted-border span{
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+
+  

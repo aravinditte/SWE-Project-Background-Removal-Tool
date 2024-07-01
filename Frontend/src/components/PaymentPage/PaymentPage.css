@@ -1,0 +1,12 @@
+.payment-page {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+  .payment-success {
+    color: green;
+    font-size: 22px;
+  }
+  
+ 

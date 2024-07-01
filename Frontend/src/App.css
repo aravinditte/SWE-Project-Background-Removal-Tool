@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", "sans-serif";
+  margin: 0;
+  padding: 0;
+  background-color: #f2f3f7;
+}
+
+/* In your CSS file */
+::-webkit-scrollbar {
+  width: 0;  /* remove scrollbar width */
+  height: 0; /* remove scrollbar height */
+}
+
+/* Optional: You can also style the scrollbar track and thumb */
+::-webkit-scrollbar-track {
+  background: transparent; /* make scrollbar track transparent */
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent; /* make scrollbar thumb transparent */
+}

@@ -1,0 +1,87 @@
+.card-left {
+  position: relative;
+  border-radius: 10px;
+  width: 650px;
+  height: 430px;
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  align-items: center;
+}
+.icon-container {
+  position: absolute;
+  width: 100%;
+  top: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.icon-container.right {
+  right: 10px;
+}
+
+.remove-icon,
+.download-icon {
+  font-size: 30px;
+  color: #410cd9;
+}
+
+.card-right {
+  border-radius: 10px;
+  width: 400px;
+  height: 430px;
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+.remove-wrapper {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  /* background: #f2f3f7; */
+  background-color: hsl(240, 78%, 98%);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 300px 600px;
+  z-index: 999;
+}
+
+.dotted-border {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dotted-border button {
+  padding: 15px 25px;
+  background-color: #410cd9;
+  color: white;
+  font-size: 1rem;
+  font-family: "Poppins";
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.dotted-border span {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.progress {
+  color: wheat;
+  margin-top: 10px;
+}

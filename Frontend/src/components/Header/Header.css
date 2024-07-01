@@ -1,0 +1,39 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+/* Header.css */
+
+.navbar-left span:first-child {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: dimgrey;
+}
+
+.navbar-left span,
+.navbar-right span {
+  margin-right: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.navbar-left span:last-child,
+.navbar-right span:last-child {
+  margin-right: 0;
+}
